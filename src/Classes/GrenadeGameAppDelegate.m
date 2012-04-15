@@ -85,7 +85,7 @@
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
-                                         pathForResource:@"omar"
+                                         pathForResource:@"ThirteenSenses-IntoTheFire"
                                          ofType:@"m4a"]];
     
     NSError *error;
