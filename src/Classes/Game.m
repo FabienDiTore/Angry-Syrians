@@ -619,7 +619,7 @@
  
         
         //Create new NSString from another string
-        NSString *textlabel = [username stringByAppendingString:@" Wins!"];
+        NSString *textlabel = [username stringByAppendingString:@" Win!"];
         
 		CCLabelTTF *label = [CCLabelTTF labelWithString:textlabel 
 											   fontName:@"Marker Felt" 
@@ -643,19 +643,12 @@
             [self addChild:label z:100];
             [self addChild:score z:100];
         
-        if ([mainDelegate isHighScore:scoreValue]) {
-
-            
-            CCLabelTTF *highScore = [CCLabelTTF labelWithString:@"New Highscore !"
+            CCLabelTTF *highScore = [CCLabelTTF labelWithString:@"Assad Died !"
                                                    fontName:@"Marker Felt" 
                                                    fontSize:50];
             highScore.position = ccp(240,250);
             
             [self addChild:highScore z:100];
-
-            
-        }
-        
         
         
 	}

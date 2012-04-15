@@ -50,7 +50,7 @@
             
             UIAlertView *oneTimeWelcome = [[UIAlertView alloc]
                                            initWithTitle: @"Welcome"
-                                           message: @"This is beta-software. Can Crash"
+                                           message: @"Thanks for Expressing your support for Syria"
                                            delegate: self
                                            cancelButtonTitle:@"Play Now"
                                            otherButtonTitles:nil];
@@ -85,8 +85,8 @@
 	window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
     NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]
-                                         pathForResource:@"ThirteenSenses-IntoTheFire"
-                                         ofType:@"m4a"]];
+                                         pathForResource:@"TheArcade"
+                                         ofType:@"mp3"]];
     
     NSError *error;
     audioPlayer = [[AVAudioPlayer alloc]
