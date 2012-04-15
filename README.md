@@ -31,6 +31,12 @@ The topic has already been widely covered using  social media but since it's las
 
 You may ask how this project may help the Syrian cause. It's all about education. Whatever you'll be doing with this code keep in mind that it was originally designed made to educate people about [what's going on in Syria](https://twitter.com/#!/JanKuzvart/syria).
 
+## Installation
+
+This game will unfortunately never be up in the App Store for legal reasons. This means that it will never be going viral to end-users. On the other hand, this game could have a huge impact to developers. I'm providing a tool that makes it easy to make an Angry-Birds game. Take it from there and make something awesome !
+
+For those who aren't familiar about iOS development, you won't be able to install this game for now. I may distribute a version in a private Cydia repository for jailbroken phones though later. I really wish I would distribute it in a "Single-Tap" installation like the App Store but Apple is very restrictive regarding this.
+
 ## Technical Information
 
 This game was build exclusively for the iPhone. It runs on the iPad though but isn't optimized yet. It was build using a graphics library called [Cocos-2D](http://www.cocos2d-iphone.org/). An Android port is difficult since the whole code is in Objective-C. 
@@ -51,7 +57,7 @@ Like Jobs said
 
 I would like to thank a few people that without knowing it are contributing to the success of this project.
 
-* Music : [omarkobassam](http://www.youtube.com/watch?v=iHOLXEzuWfg)
+* Music :  [Thirteen Senses](http://www.youtube.com/watch?v=VFroDCsVCeY) via [omarkobassam](http://www.youtube.com/watch?v=iHOLXEzuWfg)
 
 * Artwork : [osamahajjaj](http://osamahajjaj.com/en/)
 
