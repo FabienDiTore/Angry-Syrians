@@ -76,6 +76,7 @@
     [mainDelegate setNumberOfEnnemies:numberOfEnemies];
     [mainDelegate setBombPower:bombPower];
     [mainDelegate setBombRadius:bombRadius];
+    [mainDelegate setassadResistance:assadResistance];
     
     [(Game*)[[[CCDirector sharedDirector] runningScene] getChildByTag:GAME_TAG] dismissSettings];
     
