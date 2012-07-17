@@ -53,33 +53,6 @@ void defaultEachShape(void *ptr, void* data)
 	}
 }
 
-static void eachShapeAsChildren(void *ptr, void* data)
-{
-	cpShape *shape = (cpShape*) ptr;
-	
-	CCNode *node = (CCNode*)shape->data;
-	if(node) 
-	{
-		cpBody *body = shape->body;
-		CCNode *parent = node.parent;
-		if (parent)
-		{
-			[node setPosition:[node.parent convertToNodeSpace:body->p]];
-			
-			cpVect zPt = [node convertToWorldSpace:cpvzero];
-			cpVect dPt = [node convertToWorldSpace:cpvforangle(body->a)];
-			cpVect rPt = cpvsub(dPt,zPt);
-			float angle = cpvtoangle(rPt);
-			[node setRotation: CC_RADIANS_TO_DEGREES(-angle)];
-		}
-		else
-		{
-			[node setPosition:body->p];
-			[node setRotation: CC_RADIANS_TO_DEGREES( -body->a )];
-		}
-	}
-}
-
 @implementation SpaceManagerCocos2d
 
 -(id) initWithSpace:(cpSpace*)space

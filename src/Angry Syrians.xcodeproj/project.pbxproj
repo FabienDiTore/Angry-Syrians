@@ -91,6 +91,7 @@
 		A69E23D312EA3A160069BF6E /* restart-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A69E23D112EA3A160069BF6E /* restart-hd.png */; };
 		A69E23D412EA3A160069BF6E /* restartsel-hd.png in Resources */ = {isa = PBXBuildFile; fileRef = A69E23D212EA3A160069BF6E /* restartsel-hd.png */; };
 		A6A8538512E929C9002D27D5 /* Assad.m in Sources */ = {isa = PBXBuildFile; fileRef = A6A8538412E929C9002D27D5 /* Assad.m */; };
+		B6CEAD9B15B4B0A800950124 /* AngryAssad_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = B6CEAD9A15B4B0A800950124 /* AngryAssad_Prefix.pch */; };
 		DC6640030F83B3EA000B3E49 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */; };
 		DC6640050F83B3EA000B3E49 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC6640040F83B3EA000B3E49 /* OpenAL.framework */; };
 		DCCBF1B70F6022AE0040855A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */; };
@@ -446,6 +447,7 @@
 		A69E23D212EA3A160069BF6E /* restartsel-hd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "restartsel-hd.png"; sourceTree = "<group>"; };
 		A6A8538312E929C9002D27D5 /* Assad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Assad.h; sourceTree = "<group>"; };
 		A6A8538412E929C9002D27D5 /* Assad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Assad.m; sourceTree = "<group>"; };
+		B6CEAD9A15B4B0A800950124 /* AngryAssad_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AngryAssad_Prefix.pch; sourceTree = "<group>"; };
 		DC6640020F83B3EA000B3E49 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		DC6640040F83B3EA000B3E49 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		DCCBF1B60F6022AE0040855A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -784,6 +786,7 @@
 		2D500B1D0D5A766B00DBA0E3 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				B6CEAD9A15B4B0A800950124 /* AngryAssad_Prefix.pch */,
 				A69E22E512EA267B0069BF6E /* Bomb.h */,
 				A69E22E612EA267B0069BF6E /* Bomb.m */,
 				A613ADA412E7E4F600534DA5 /* Game.h */,
@@ -1472,6 +1475,7 @@
 				E0D2C47012AEDE5C008D5DBB /* cpVect.h in Headers */,
 				E0D2C48B12AEDE5C008D5DBB /* prime.h in Headers */,
 				F4F8A2921538F9C50063E6EE /* Shabiha.h in Headers */,
+				B6CEAD9B15B4B0A800950124 /* AngryAssad_Prefix.pch in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
